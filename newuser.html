@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head><title>Create User</title></head>
+<head> 
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDCwQyhxTLe0YlhRlWCIJN3f7HotFVoaUo",
+    authDomain: "group-loop.firebaseapp.com",
+    databaseURL: "https://group-loop.firebaseio.com",
+    projectId: "group-loop",
+    storageBucket: "group-loop.appspot.com",
+    messagingSenderId: "224750482964"
+  };
+  firebase.initializeApp(config);
+</script>
+  <title>Create User</title>
+ </head>
 <body>
 <img src="logo.png" alt=Logo>
 <h1>Create New User:</h1>
