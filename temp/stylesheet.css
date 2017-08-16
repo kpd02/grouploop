@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 body {
-    background-color: #f9f9d9;
+    background-color: #ffffff;
+    font-family: 'Raleway';
+      line-height: 150%;
 }
 
 img {
   display: block;
   margin: auto;
+}
+
+a {
+  margin: 200px 100px 200px 100px;
+  text-decoration: none;
+
 }
