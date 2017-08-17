@@ -9,8 +9,8 @@ body {
 }
 
 p {
-  background-color: white;
-  border: 15px solid white;
+  background-color: #fdf5e6;
+  border: 15px solid #fdf5e6;
   border-radius: 10px;
 }
 
@@ -23,8 +23,21 @@ img {
 
 }
 
-a {
+a { /* links to other pages */
   margin: 200px 100px 200px 100px;
   text-decoration: none;
+  text-align: justify;
+  font-size: 125%;
+  color: black;
+}
 
+a:hover{
+  color: white;
+}
+form {
+  direction: rtl;
+}
+input {
+  display: block;
+  direction: ltr;
 }
